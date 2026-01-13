@@ -1,5 +1,19 @@
 # 📊 Data Jobs Analysis & Dashboard w/ Power BI
 
+### 🔴 [Click Here to View the Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmU3NTI3ZGItM2QyYy00NDgyLWJjZjItZmU5MDViZDQzOTU5IiwidCI6IjRjMTYyNDA1LWVhOGItNGYzMC05MjcwLWMyNDk4ZDg0NTQ0NCJ9)
+
+### 📸 Dashboard Previews
+
+**Page 1: High-Level Market View**
+![Dashboard Page 1](/images/Project_Page_1.png)
+*This is your mission control for the data job market. It showcases key KPIs like total job count, median salaries, and top job titles to give you a quick understanding of what's happening in the job market at a glance.*
+
+**Page 2: Job Title Drill Through**
+![Dashboard Page 2](/images/Project_Page_2.png)
+*This is the deep-dive page. From the main dashboard, you can drill through to this view to get specific details for a single job title, including salary ranges, work-from-home stats, top hiring platforms, and a global map of job locations.*
+
+---
+
 ### 📌 Project Overview
 This project focuses on building an end-to-end **Power BI Dashboard** to analyze the global data job market. 
 
@@ -17,7 +31,7 @@ Rather than just looking at rows of data, I wanted to build a tool that helps un
   - Used **Power Query** to clean raw data, fix missing values, and standardize currency formats.
   - Built conditional columns to separate "Full-time" jobs from "Contract" roles.
 - **📈 Advanced Visualization:**
-  - **Line Charts:** To visualize the trend of job postings over time.
+  - **Area Charts:** To visualize the trend of job postings over time.
   - **Map Charts:** To show the global spread of job opportunities.
   - **Scatter Plots:** To find the correlation between hourly and yearly pay rates.
 - **🎛️ Interactive Reporting:**
@@ -27,19 +41,11 @@ Rather than just looking at rows of data, I wanted to build a tool that helps un
   - Designed clean **KPI Cards** for instant insights (Avg Salary, Total Jobs).
   - Used custom **Navigation Buttons** to make moving between pages smooth and app-like.
 
-### 📸 Dashboard Previews
-
-### 🔴 [Click Here to View the Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmU3NTI3ZGItM2QyYy00NDgyLWJjZjItZmU5MDViZDQzOTU5IiwidCI6IjRjMTYyNDA1LWVhOGItNGYzMC05MjcwLWMyNDk4ZDg0NTQ0NCJ9)
-
-### Page 1: High-Level Market View
-![Dashboard Page 1](/images/Project_Page_1.png)
-
-This is your mission control for the data job market. It showcases key KPIs like total job count, median salaries, and top job titles to give you a quick understanding of what's happening in the job market at a glance.
-
-### Page 2: Job Title Drill Through
-![Dashboard Page 2](/images/Project_Page_2.png)
-
-This is the deep-dive page. From the main dashboard, you can drill through to this view to get specific details for a single job title, including salary ranges, work-from-home stats, top hiring platforms, and a global map of job locations.
+### 🛠️ Tech Stack
+- **Tool:** Microsoft Power BI Desktop.
+- **Data Transformation:** Power Query Editor (M Language).
+- **Calculations:** DAX (Data Analysis Expressions).
+- **Data Source:** CSV / Excel (Raw Job Posting Data).
 
 ### 📊 Top Insights
 - **Salary Hierarchy:** Data Scientists and Engineers generally earn more ($125k+), but Data Analysts have a higher volume of entry-level openings.
